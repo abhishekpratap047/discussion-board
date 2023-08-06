@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Discussion Board</title>
+</head>
+<body>
+    <div id="app">
+        <div id="leftpane">
+            <div id="searchwrapper">
+            <input id="searchbox" placeholder="Search..." autofocus>
+            </div>
+            <div id = "recentquestions">All topics : </div>
+            <div id="questionlistwrapper">
+            </div>
+        </div>
+        <div id="rightpane">
+                <div id="askquestionwrapper">
+                    add a topic :
+                    <input id = "newtopictext">
+                    description :
+                    <textarea id = "newdescriptiontext"></textarea>
+                    <div id="addbuttonwrapper">
+                    <button id="addquestionbutton">Add to list</button>
+                    </div>
+                </div>
+                <div id="questionexpand">
+                    <div id="rightquestionwrapper">
+                        <div id="newquestionwrapper">
+                            <button id="newquestion">+ NEW TOPIC </button>
+                            </button>
+                        </div>
+                        <div id="righttopic">
+                            <div id="topictext">What is JS?</div>
+                            <div id="resolvebutton">DELETE TOPIC</div>
+                        </div>
+                        <div id="rightdescription">
+                        </div>
+                    </div>
+                    <div id="addcommentwrapper">
+                        <textarea id = "mycomment"></textarea>
+                        <div id="nameandadd">
+                            <input id="yourname" placeholder="username">
+                            <button id="addcommentbutton">Add comment</button>
+                        </div> 
+                   
+                    </div>
+                    <div id="commenttext">comments :</div>
+                    <div id="commentwrapper">
+                    </div>
+                </div>
+        </div>
+    </div>    
+</body>
+</html>
